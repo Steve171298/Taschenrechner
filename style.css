@@ -1,0 +1,74 @@
+body {
+background: #0d0d0d;
+font-family: "Arial Black", sans-serif;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+/* Calculator Frame – GTA Menü Look */
+.calculator {
+background: #1a0000;
+padding: 25px;
+border-radius: 12px;
+border: 3px solid #ff0000;
+box-shadow: 0 0 25px #ff0000aa, inset 0 0 15px #660000;
+}
+
+/* Display – GTA HUD Style */
+#display {
+width: 100%;
+height: 50px;
+font-size: 2em;
+text-align: right;
+padding: 10px;
+background: #330000;
+color: #ff3333;
+border: 2px solid #ff0000;
+border-radius: 8px;
+text-shadow: 0 0 8px #ff0000;
+}
+
+/* Button Grid */
+.buttons {
+display: grid;
+grid-template-columns: repeat(4, 70px);
+gap: 12px;
+margin-top: 15px;
+}
+
+/* Buttons – GTA Menü Buttons */
+button {
+height: 60px;
+font-size: 1.4em;
+font-weight: bold;
+background: #660000;
+color: #ffcccc;
+border: 2px solid #ff0000;
+border-radius: 8px;
+cursor: pointer;
+transition: 0.15s;
+text-shadow: 0 0 6px #ff0000;
+box-shadow: 0 0 10px #330000;
+}
+
+/* Hover – typischer GTA Glow */
+button:hover {
+background: #ff0000;
+color: white;
+box-shadow: 0 0 20px #ff0000;
+}
+
+/* Clear Button */
+#clear {
+background: #990000;
+color: white;
+border-color: #ff3333;
+}
+
+#clear:hover {
+background: #ff3333;
+box-shadow: 0 0 25px #ff3333;
+}
